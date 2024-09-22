@@ -165,7 +165,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background-image: url('robot3.png');
+	background-color: #091c2a;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
