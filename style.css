@@ -165,7 +165,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	background-color: #091c2a;
+	background-image: url('robot.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -270,9 +270,9 @@ body {
 }
 
 .hero-image img {
-max-width: 300px; /* Adjust this value to resize the image */
-height: auto;
-border-radius: 10px;
+    max-width: 300px; /* Adjust this value to resize the image */
+    height: auto;
+    border-radius: 10px;
 }
 
 .imgHover {
@@ -289,6 +289,7 @@ transition: 3s;
 	background: #081b29;
 	opacity: .88;
 }
+
 
 /* About Section */
 .about {
@@ -621,13 +622,13 @@ transform-origin: scaleX(0.2);
 .contact .row form {
 	padding-top: 0;
 }	
-	
+
 .hero-container {
         flex-direction: column;
         text-align: center;
     }
 
-.hero-image img {
+    .hero-image img {
         max-width: 200px;
         margin-bottom: 1rem;
     }
