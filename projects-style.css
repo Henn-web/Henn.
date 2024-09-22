@@ -87,37 +87,29 @@ body {
 }
 
 #search-form {
-    display: none; /* Tersembunyi secara default */
-    margin-left: 10px; /* Spasi dari ikon pencarian */
+    display: none; /* Sembunyikan form secara default */
 }
 
 #search-form.hidden {
-    display: none; /* Kelas untuk menyembunyikan form */
+    display: none;
 }
 
-#search-form:not(.hidden) {
-    display: flex; /* Menampilkan form saat kelas tidak ada */
+#search-form.visible {
+    display: flex;
+    align-items: center; /* Atur tampilan agar lebih rapi */
 }
 
 #search-input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 150px; /* Sesuaikan lebar sesuai kebutuhan */
-    margin-right: 5px; /* Spasi dari tombol */
+    padding: 0.5rem;
+    margin-right: 0.5rem;
 }
 
-#search-button {
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.hidden {
+    display: none; /* Menyembunyikan elemen */
 }
 
-#search-button:hover {
-    background-color: #0056b3;
+.visible {
+    display: block; /* Menampilkan elemen */
 }
 
 
