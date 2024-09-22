@@ -270,22 +270,20 @@ body {
 }
 
 .hero-image img {
-    max-width: 300px; /* Adjust this value to resize the image */
-    height: auto;
-    border-radius: 10px;
+max-width: 300px; /* Adjust this value to resize the image */
+height: auto;
+border-radius: 10px;
+position: absolute;
+top: 0;
+right: 30px;
+width: 500px;
+height: 100%;
+background: transparent;
+transition: 3s;
 }
 
-.imgHover {
-	position: absolute;
-	top: 0;
-	right: 30px;
-	width: 500px;
-	height: 100%;
-	background: transparent;
-	transition: 3s;
-}
 
-.imgHover:hover {
+.hero-image img:hover {
 	background: #081b29;
 	opacity: .88;
 
