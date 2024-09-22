@@ -623,23 +623,26 @@ transform-origin: scaleX(0.2);
 	padding-top: 0;
 }	
 
+.home-sci {
+margin-top: 2rem;
+}
+
 .hero-container {
         flex-direction: column;
         text-align: center;
     }
 
-    .hero-image img {
+.hero-image img {
         max-width: 200px;
         margin-bottom: 1rem;
-    }
-
+}
 
 .imgHover {
 position: absolute;
 top: 50px;
 bottom: 80px;
 width: 500px;
-height: 20%;
+height: 30%;
 background: transparent;
 transition: 3s;
 }
