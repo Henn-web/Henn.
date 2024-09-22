@@ -625,7 +625,7 @@ transform-origin: scaleX(0.2);
 
 .home-sci {
 flex-wrap: wrap;
-margin-top: 2rem;
+margin-top: 5rem;
 }
 
 .hero-container {
@@ -643,7 +643,7 @@ position: absolute;
 top: 50px;
 bottom: 80px;
 width: 500px;
-height: 50%;
+height: 80%;
 background: transparent;
 transition: 3s;
 }
