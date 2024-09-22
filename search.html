@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pencarian</title>
+</head>
+<body>
+    <h1>Hasil Pencarian</h1>
+    <div id="results"></div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get('q');
+        const resultsContainer = document.getElementById('results');
+
+        if (query) {
+            const content = [
+                { title: "Home", text: "Selamat datang di website saya." },
+                { title: "About", text: "Saya adalah seorang programmer." },
+                { title: "Projects", text: "Berikut adalah proyek yang telah saya kerjakan." },
+            ];
+
+            const results = content.filter(item => {
+                return item.text.toLowerCase().includes(query.toLowerCase());
+            });
+
+            if (results.length > 0) {
+                results.forEach(item => {
+                    const resultItem = document.createElement('div');
+                    resultItem.innerHTML = `<h3>${item.title}</h3><p>${item.text}</p>`;
+                    resultsContainer.appendChild(resultItem);
+                });
+            } else {
+                resultsContainer.innerHTML = '<p>Tidak ada hasil yang ditemukan.</p>';
+            }
+        } else {
+            resultsContainer.innerHTML = '<p>Silakan masukkan kata kunci untuk mencari.</p>';
+        }
+    </script>
+</body>
+</html>
