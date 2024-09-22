@@ -162,7 +162,7 @@ body {
 
 /* Hero Section */
 .hero {
-	min-height: 100%;
+	min-height: 100vh;
 	display: flex;
 	align-items: center;
 	background-image: url('../img/header-bg.jpg');
@@ -555,6 +555,14 @@ transform-origin: 0 0;
 
 .navbar .navbar-nav a:hover::after {
 transform-origin: scaleX(0.2);
+}
+
+.hero .content h1 {
+        font-size: 3rem; /* Adjusts for smaller screens */
+    }
+	
+.hero .content p {
+	font-size: 1.3rem;
 }
 
 .about .row {
