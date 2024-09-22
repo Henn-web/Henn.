@@ -624,7 +624,7 @@ transform-origin: scaleX(0.2);
 }	
 
 .hero-container {
-        flex-direction: column;
+        flex-wrap: wrap;
         text-align: center;
     }
 
@@ -633,6 +633,8 @@ transform-origin: scaleX(0.2);
         margin-bottom: 1rem;
     }
 
+.home-sci {
+	flex-wrap: wrap;
 }
 
 /* Mobile Phone */
