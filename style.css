@@ -273,6 +273,9 @@ body {
 max-width: 300px; /* Adjust this value to resize the image */
 height: auto;
 border-radius: 10px;
+}
+
+.imgHover {
 position: absolute;
 top: 0;
 right: 30px;
@@ -282,10 +285,10 @@ background: transparent;
 transition: 3s;
 }
 
-
-.hero-image img:hover {
+.imgHover:hover {
 	background: #081b29;
 	opacity: .88;
+}
 
 /* About Section */
 .about {
