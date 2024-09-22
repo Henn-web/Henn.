@@ -275,6 +275,20 @@ body {
     border-radius: 10px;
 }
 
+.imgHover {
+	position: absolute;
+	top: 0;
+	right: 30px;
+	width: 500px;
+	height: 100%;
+	background: transparent;
+	transition: 3s;
+}
+
+.imgHover:hover {
+	background: #081b29;
+	opacity: .88;
+
 /* About Section */
 .about {
 	padding: 7rem 7% 1.4rem;
