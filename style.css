@@ -82,11 +82,30 @@ body {
 }
 
 /* logo medsos */
+.home-sci {
+	position: absolute;
+	margin: 3rem 5rem;
+	bottom: 0px;
+	width: 170px;
+	display: flex;
+	justify-content: space-between;
+}
 .home-sci a {
-    position: relative;
-    display: inline-flex; 
-    justify-content: center;
-    align-items: center;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 2px solid #00abf0;
+	border-radius: 50%;
+	font-size: 20px;
+	color: #00abf0;
+	text-decoration: none;
+	z-index: 1;
+	overflow: hidden;
+	transition: .5s;
 }
 
 .home-sci a:hover {
