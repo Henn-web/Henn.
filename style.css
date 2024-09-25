@@ -264,55 +264,99 @@ transition: 3s;
 
 /* About Section */
 .about {
-	padding: 7rem 7% 1.4rem;
+    padding: 7rem 7% 1.4rem;
 }
 
 .about h2 {
-	text-align: center;
-	font-size: 2.8rem;
-	margin-bottom: 3rem;
-	color: #00abf0;
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    color: #00abf0;
 }
 
 .about h3 {
-	text-align: center;
-	font-size: 2.3rem;
-	margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
 }
 
 .about .row {
-	display: flex;
+    display: flex;
+    flex-wrap: wrap; /* Agar item flex dapat membungkus pada layar kecil */
+    justify-content: center; /* Agar item terpusat */
+    gap: 2rem; /* Menambahkan jarak antar item */
 }
 
 .about .row .about-img {
-	flex: 1 1 35rem;
-	
+    flex: 1 1 30rem; /* Menyesuaikan lebar dengan flex-basis */
+    text-align: center;
 }
 
 .about .row .about-img img {
     width: 100%; 
-    max-width: 150px; 
-    height: auto; 
-    object-fit: cover; 
+    max-width: 250px; /* Menambah lebar maksimal gambar */
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1.5rem; /* Menambah jarak di bawah gambar */
 }
 
-
 .about .row .content {
-flex: 1 1 35rem;
-padding: 0 1rem;
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+    text-align: left; /* Agar teks rata kiri */
 }
 
 .about .row .content h4 {
-font-size: 1.8rem;
-margin-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .about .row .content p {
-	margin-bottom: 0.8rem;
-	font-size: 1.4rem;
-	font-weight: 100;
-	line-height: 1.6;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.7;
 }
+
+/* Untuk bagian kedua */
+.row.reverse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.img2 {
+    flex: 1 1 30rem;
+    text-align: center;
+}
+
+.img2 img {
+    width: 100%;
+    max-width: 300px; /* Menyesuaikan lebar maksimal */
+    height: auto;
+    object-fit: cover;
+}
+
+.content2 {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.content2 h3 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.content2 h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.content2 p {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
 }
 
 
