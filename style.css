@@ -309,9 +309,12 @@ transition: 3s;
 }
 
 .about .row .about-img img {
-	width: 100%;
-	
+    width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    object-fit: cover; 
 }
+
 
 .about .row .content {
 flex: 1 1 35rem;
@@ -619,13 +622,14 @@ transition: 3s;
     display: inline-block;
 }
 
+/* Navbar untuk Mobile */
 .navbar .navbar-nav {
     position: absolute;
     top: 100%;
     right: -100%;
     background-color: #fff;
-    width: 100vw; /* Full width for mobile */
-    height: 100vh; /* Full screen height */
+    width: 100vw; 
+    height: 100vh; 
     transition: 0.3s;
 }
 
@@ -641,13 +645,13 @@ transition: 3s;
     font-size: 1.5rem; 
 }
 
-/* Hero Section */
+/* Hero Section untuk Mobile */
 .hero .content h1 {
     font-size: 2rem;
 }
 
 .hero .content p {
-    font-size: 1.2rem; 
+    font-size: 1.2rem; /* Sesuaikan ukuran teks */
 }
 
 .hero-container {
@@ -656,9 +660,10 @@ transition: 3s;
 }
 
 .hero-image img {
-    max-width: 150px; 
+    max-width: 150px; /* Gambar lebih kecil di mobile */
     margin-bottom: 1rem;
 }
+
 
 /* About Section */
 .about .row {
