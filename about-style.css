@@ -87,7 +87,7 @@ body {
 }
 
 #search-form {
-    display: none; /* Sembunyikan form secara default */
+    display: none; 
 }
 
 #search-form.hidden {
@@ -96,7 +96,7 @@ body {
 
 #search-form.visible {
     display: flex;
-    align-items: center; /* Atur tampilan agar lebih rapi */
+    align-items: center; 
 }
 
 #search-input {
@@ -105,11 +105,11 @@ body {
 }
 
 .hidden {
-    display: none; /* Menyembunyikan elemen */
+    display: none; 
 }
 
 .visible {
-    display: block; /* Menampilkan elemen */
+    display: block; 
 }
 
 
@@ -205,7 +205,7 @@ margin-bottom: 1rem;
 }
 
 .about .row .content2 h3 {
-    font-size: 1.8rem; 
+    font-size: 2.3rem; 
     margin-bottom: 1rem; 
 }
 
