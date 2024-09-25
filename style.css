@@ -582,9 +582,16 @@ transform-origin: scaleX(0.2);
 }
 
 .home-sci {
-flex-wrap: wrap;
-margin-top: 8rem;
+	position: relative; /
+        display: flex; 
+        justify-content: center; 
+        margin-top: 20px; 
+	display: flex; 
 }
+.home-sci a {
+        margin: 0 10px; 
+        font-size: 1.5rem; 
+    }
 
 .hero-container {
         flex-direction: column;
@@ -610,6 +617,7 @@ transition: 3s;
 	opacity: .8;
 }
 }
+
 
 
 /* Mobile Phone */
