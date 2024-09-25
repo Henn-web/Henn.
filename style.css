@@ -82,59 +82,40 @@ body {
 }
 
 /* logo medsos */
-.home-sci {
-	position: absolute;
-	margin: 3rem 5rem;
-	bottom: 0px;
-	width: 170px;
-	display: flex;
-	justify-content: space-between;
-}
 .home-sci a {
-	position: relative;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	width: 40px;
-	height: 40px;
-	background: transparent;
-	border: 2px solid #00abf0;
-	border-radius: 50%;
-	font-size: 20px;
-	color: #00abf0;
-	text-decoration: none;
-	z-index: 1;
-	overflow: hidden;
-	transition: .5s;
+    position: relative;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .home-sci a:hover {
-	color: #081b29;
+    color: #081b29; 
 }
 
 .home-sci a::before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 0;
-	height: 100%;
-	background: #00abf0;
-	z-index: -1;
-	transition: .5s;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #00abf0;
+    z-index: -1; 
+    transition: .5s; 
 }
 
 .home-sci a:hover::before {
-	width: 100%;
+    width: 100%; 
 }
-	
+
 
 #hamburger-menu {
 	display: none;
 }
 
 #search-form {
-    display: none; /* Sembunyikan form secara default */
+    display: none; 
 }
 
 #search-form.hidden {
@@ -143,7 +124,7 @@ body {
 
 #search-form.visible {
     display: flex;
-    align-items: center; /* Atur tampilan agar lebih rapi */
+    align-items: center; 
 }
 
 #search-input {
@@ -152,11 +133,11 @@ body {
 }
 
 .hidden {
-    display: none; /* Menyembunyikan elemen */
+    display: none;
 }
 
 .visible {
-    display: block; /* Menampilkan elemen */
+    display: block; 
 }
 
 
@@ -221,7 +202,7 @@ body {
 	letter-spacing: 1px;
 	position: relative;
 	overflow: hidden;
-	transition: background-color .5s ease, color .5s ease; /* Tambahkan transisi background dan color */
+	transition: background-color .5s ease, color .5s ease; 
 	padding: 0;
 }
 
@@ -549,7 +530,7 @@ transform-origin: scaleX(0.2);
 }
 
 .hero .content h1 {
-        font-size: 3rem; /* Adjusts for smaller screens */
+        font-size: 3rem; 
     }
 	
 .hero .content p {
@@ -582,15 +563,13 @@ transform-origin: scaleX(0.2);
 }
 
 .home-sci {
-	position: relative; /
-        display: flex; 
-        justify-content: center; 
-        margin-top: 20px; 
-	display: flex; 
-}
-.home-sci a {
-        margin: 0 10px; 
-        font-size: 1.5rem; 
+        margin-top: 2rem; 
+    }
+    
+    .home-sci a {
+        width: 35px; 
+        height: 35px; 
+        font-size: 1.2rem;
     }
 
 .hero-container {
@@ -659,7 +638,7 @@ transition: 3s;
 }
 
 .hero .content p {
-    font-size: 1.2rem; /* Sesuaikan ukuran teks */
+    font-size: 1.2rem; 
 }
 
 .hero-container {
@@ -668,7 +647,7 @@ transition: 3s;
 }
 
 .hero-image img {
-    max-width: 150px; /* Gambar lebih kecil di mobile */
+    max-width: 150px; 
     margin-bottom: 1rem;
 }
 
@@ -702,9 +681,14 @@ transition: 3s;
 
 /* Social Icons Section */
 .home-sci {
-    flex-wrap: wrap;
-    margin-top: 4rem; 
-}
+        margin-top: 3rem;
+    }
+    
+    .home-sci a {
+        width: 30px; 
+        height: 30px; 
+        font-size: 1rem; 
+    }
 
 /* Image Hover Effect */
 .imgHover {
