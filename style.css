@@ -83,7 +83,7 @@ body {
 
 /* logo medsos */
 .home-sci {
-	position: absolute;
+	position: relative;
 	margin: 3rem 5rem;
 	bottom: 0px;
 	width: 170px;
