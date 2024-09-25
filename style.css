@@ -576,7 +576,7 @@ transform-origin: scaleX(0.2);
 
 .contact .row form {
 	padding-top: 0;
-}	
+}
 
 .home-sci {
 flex-wrap: wrap;
@@ -606,12 +606,105 @@ transition: 3s;
 	background: #081b29;
 	opacity: .8;
 }
-
 }
+
 
 /* Mobile Phone */
 @media (max-width: 450px) {
     html {
         font-size: 55%;
     }
+	
+#hamburger-menu {
+    display: inline-block;
+}
+
+.navbar .navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 100vw; /* Full width for mobile */
+    height: 100vh; /* Full screen height */
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav.active {
+    right: 0;
+}
+
+.navbar .navbar-nav a {
+    color: var(--bg);
+    display: block;
+    margin: 1rem; 
+    padding: 0.5rem;
+    font-size: 1.5rem; 
+}
+
+/* Hero Section */
+.hero .content h1 {
+    font-size: 2rem;
+}
+
+.hero .content p {
+    font-size: 1.2rem; 
+}
+
+.hero-container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 150px; 
+    margin-bottom: 1rem;
+}
+
+/* About Section */
+.about .row {
+    flex-wrap: wrap;
+}
+
+.about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem; 
+}
+
+.about .row .content p {
+    font-size: 1.3rem; 
+}
+
+/* Contact Section */
+.contact .row {
+    flex-wrap: wrap;
+}
+
+.contact .row .map {
+    height: 20rem; 
+}
+
+.contact .row form {
+    padding-top: 0;
+}
+
+/* Social Icons Section */
+.home-sci {
+    flex-wrap: wrap;
+    margin-top: 4rem; 
+}
+
+/* Image Hover Effect */
+.imgHover {
+    top: 20px;
+    width: 100%; 
+    height: auto;
+    background: transparent;
+    transition: 0.3s; 
+}
+
+.imgHover:hover {
+    background: #081b29;
+    opacity: 0.8;
+}
+
 }
