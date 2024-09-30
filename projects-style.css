@@ -215,6 +215,18 @@ footer .credit a:hover {
 	font-weight: 100;
 	line-height: 1.6;
 }
+
+.foto {
+    flex: 1 1 30rem;
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+    max-width: 300px; /* Menyesuaikan lebar maksimal */
+    height: auto;
+    object-fit: cover;
+}
 	
 	
 	
