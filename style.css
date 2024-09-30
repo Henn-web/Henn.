@@ -473,10 +473,11 @@ transition: 3s;
 }
 
 .foto img {
-    width: 100%;
-    max-width: 300px; /* Menyesuaikan lebar maksimal */
+	width: 100%; 
+    max-width: 250px; /* Menambah lebar maksimal gambar */
     height: auto;
     object-fit: cover;
+    margin-bottom: 1.5rem; 
 }
 	
 
