@@ -181,26 +181,42 @@ footer .credit a:hover {
 	color: #fff; 
 }
 
-	/* Menu Section */
-.menu {
-	padding: 7rem 7% 1.4rem;
-}
+		<!-- Menu Section Start -->
+<section id="menu" class="menu">
+<h2>Projects</h2>
 
-.menu h2 {
-	text-align: center;
-	font-size: 2.8rem;
-	margin-bottom: 1rem;
-	color: #00abf0;
-}
+<br></br>
 
-.menu p {
-	text-align: center;
-	max-width: 40rem;
-	margin: auto;
-	font-size: 1.2rem;
-	font-weight: 100;
-	line-height: 1.6;
-}	
+<div class="k"><p>Aku membuat sebuah website portofolio pribadi yang menampilkan keterampilanku sebagai programmer. Ini adalah hasil dari website yang ku buat.</p>
+</div>
+<br></br>
+<img src="Img.jpeg" class="foto">
+
+<h4>Keunggulan dan Kelebihan:</h4>
+
+<p><b>Pengenalan Diri:</b> Website ini memberikan informasi tentang diriku, sehingga pengunjung dapat lebih mengenal latar belakang dan keahlian yang saya miliki.</p>
+
+<br></br>
+
+<p><b>Desain Responsif:</b> Website dapat diakses dengan baik di berbagai perangkat, baik desktop maupun mobile, memberikan pengalaman pengguna yang optimal.</p>
+
+<br></br>
+
+<p><b>Tampilan Simple namun Menarik:</b> Desain yang bersih dan modern membuat pengunjung betah untuk menjelajahi isi website.</p>
+
+<br></br>
+
+<p><b>Navigasi yang Mudah:</b> Pengunjung dapat dengan mudah menjelajahi berbagai halaman, termasuk proyek yang telah ku kerjakan dan informasi tentang diriku.</p>
+
+<br></br>
+
+<p><b>Formulir Kontak:</b> Memudahkan pengunjung untuk menghubungiku secara langsung untuk peluang kerja atau kolaborasi.</p>
+
+<br></br>
+
+<p>Untuk membuat website di atas, saya menggunakan kode HTML, CSS, dan JavaScript. Dengan teknologi ini, saya dapat menciptakan tampilan yang menarik dan fungsionalitas yang interaktif.</p>
+</section>	
+	<!-- Menu Section End -->
 	
 	
 	
