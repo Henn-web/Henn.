@@ -394,14 +394,28 @@ transition: 3s;
 	color: #00abf0;
 }
 
+.menu h4 {
+	text-align: left;
+	font-size: 1.6rem; 
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.menu .k p {
+	text-align: left;
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
 .menu p {
-	text-align: center;
+	text-align: left;
 	max-width: 40rem;
-	margin: auto;
+	margin-left: 0; /* Menghilangkan perataan tengah */
+	margin-right: auto; /* Jika masih ingin mengontrol lebar maksimal */
 	font-size: 1.2rem;
 	font-weight: 100;
 	line-height: 1.6;
-}	
+}
 
 .foto {
     flex: 1 1 30rem;
