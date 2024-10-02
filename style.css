@@ -708,6 +708,7 @@ transform-origin: scaleX(0.2);
 
 .home-sci {
         margin-top: 2rem; 
+	justify-content: center;
     }
     
     .home-sci a {
