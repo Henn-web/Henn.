@@ -83,13 +83,17 @@ body {
 
 /* logo medsos */
 .home-sci {
-	position: relative;
+	position: absolute;
 	margin: 3rem 5rem;
+	margin-left: 10px; 
+	left: 140px; 
 	bottom: 0px;
 	width: 170px;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
+
 .home-sci a {
 	position: relative;
 	display: inline-flex;
