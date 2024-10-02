@@ -709,11 +709,13 @@ transform-origin: scaleX(0.2);
 .home-sci {
         margin-top: 2rem; 
 	justify-content: space-between;
+	position: center;
     }
     
     .home-sci a {
-        width: 35px; 
-        height: 35px; 
+        width: 0; 
+        height: 0; 
+	position: center;
         font-size: 1.2rem;
     }
 
