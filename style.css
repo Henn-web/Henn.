@@ -708,7 +708,7 @@ transform-origin: scaleX(0.2);
 
 .home-sci {
         margin-top: 2rem; 
-	justify-content: center;
+	justify-content: space-between;
     }
     
     .home-sci a {
@@ -725,6 +725,8 @@ transform-origin: scaleX(0.2);
 .hero-image img {
         max-width: 90%;
         margin-bottom: 1rem;
+	height: auto; 
+    	margin: 0 auto; 
 }
 
 .imgHover {
@@ -740,6 +742,16 @@ transition: 3s;
 	background: #081b29;
 	opacity: .8;
 }
+
+.btn-box {
+	margin: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	width: 270px;
+	height: 35px;
+	position: center;
+}
+	
 }
 
 
