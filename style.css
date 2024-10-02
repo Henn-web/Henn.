@@ -722,7 +722,7 @@ transform-origin: scaleX(0.2);
     }
 
 .hero-image img {
-        max-width: 200px;
+        max-width: 90%;
         margin-bottom: 1rem;
 }
 
