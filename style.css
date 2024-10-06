@@ -550,6 +550,20 @@ transition: 3s;
 	background-color: #b6895b;
 	cursor: pointer;
 }
+
+textarea {
+    background-color: transparent;
+	font-size: 1.7rem;
+    color: #ffffff;
+    padding: 10px; 
+    border-radius: 5px; 
+    width: 100%; 
+}
+
+textarea::placeholder {
+    color: #ffffff; 
+    opacity: 0.7; 
+}
 	
 footer {
 	background-color: #b6895b;
