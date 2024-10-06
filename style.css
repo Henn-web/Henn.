@@ -284,6 +284,42 @@ transition: 3s;
 	opacity: .88;
 }
 
+//** Animasi Masuk **//
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+.navbar-logo {
+	animation: fadeIn 1s ease-in-out forwards; 
+}
+
+.navbar-extra {
+	animation: fadeIn 1s ease-in-out forwards; 
+}
+
+.navbar-nav {
+animation: fadeIn 1s ease-in-out forwards; 
+}
+
+.hero .content {
+  animation: fadeIn 4s ease-in-out forwards; 
+}
+
+.hero-image img {
+  animation: fadeIn 5s ease-in-out forwards; 
+}
+
+.home-sci {
+	animation: fadeIn 6s ease-in-out forwards;
+}
+
 
 /* About Section */
 .about {
