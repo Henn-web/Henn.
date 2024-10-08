@@ -46,3 +46,13 @@ searchButton.addEventListener('click', function(event) {
 
     searchInput.value = ''; // Mengosongkan input setelah pencarian
 });
+
+function showTechStack() {
+    document.querySelector('.tab.active').classList.remove('active');
+    document.querySelector('.tabs button:first-child').classList.add('active');
+}
+
+function showTools() {
+    document.querySelector('.tab.active').classList.remove('active');
+    document.querySelector('.tabs button:last-child').classList.add('active');
+}];
