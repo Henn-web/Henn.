@@ -68,6 +68,122 @@
         <li><strong>Network Configuration</strong>: I have a strong understanding of networking devices and protocols, including Cisco and TCP/IP, which helps me design and manage efficient network systems.</li>
     </ul>
 <br></br>
+</div>
+
+<div class="konten">
+        <h1>Skills</h1>
+        <div class="tabs">
+            <button class="tab active" id="techTab" onclick="showTechStack()">Tech Stack</button>
+            <button class="tab" id="toolsTab" onclick="showTools()">Tools</button>
+        </div>
+		
+        <div class="skills-grid" id="techStack">
+            <div class="skill-item">
+                <img src="html.png" alt="HTML Logo" class="skill-logo">
+                <span class="skill-name">HTML</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-item">
+                <img src="css.png" alt="CSS Logo" class="skill-logo">
+                <span class="skill-name">CSS</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="php.webp" alt="PHP Logo" class="skill-logo">
+                <span class="skill-name">PHP</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="javascript.webp" alt="JavaScript Logo" class="skill-logo">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-item">
+                <img src="laravel-2.svg" alt="Laravel Logo" class="skill-logo">
+                <span class="skill-name">Laravel</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="codeigniter.svg" alt="CodeIgniter Logo" class="skill-logo">
+                <span class="skill-name">CodeIgniter</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="vuejs.webp" alt="VueJS Logo" class="skill-logo">
+                <span class="skill-name">VueJS</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="alphinejs.png" alt="AlpineJS Logo" class="skill-logo">
+                <span class="skill-name">AlpineJS</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="nodejs.webp" alt="NodeJS Logo" class="skill-logo">
+                <span class="skill-name">NodeJS</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="tailwind.svg" alt="Tailwind Logo" class="skill-logo">
+                <span class="skill-name">Tailwind</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="bootstrap.png" alt="Bootstrap Logo" class="skill-logo">
+                <span class="skill-name">Bootstrap</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="React.png" alt="ReactJS Logo" class="skill-logo">
+                <span class="skill-name">ReactJS</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+		
+        
+        </div>
+
+        <!-- Tools Section -->
+        <div class="skills-grid" id="tools" style="display: none;">
+            <div class="skill-item">
+                <img src="Git.png" alt="Git Logo" class="skill-logo">
+                <span class="skill-name">Git</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <img src="github.png" alt="GitHub Logo" class="skill-logo">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-level">Advanced</span>
+            </div>
+            <div class="skill-item">
+                <img src="npm.png" alt="NPM Logo" class="skill-logo">
+                <span class="skill-name">NPM</span>
+                <span class="skill-level">Beginner</span>
+            </div>
+            <div class="skill-item">
+                <img src="mysql.png" alt="MySQL Logo" class="skill-logo">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-level">Intermediate</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function showTechStack() {
+            document.getElementById("techStack").style.display = "grid";
+            document.getElementById("tools").style.display = "none";
+            document.getElementById("techTab").classList.add("active");
+            document.getElementById("toolsTab").classList.remove("active");
+        }
+
+        function showTools() {
+            document.getElementById("techStack").style.display = "none";
+            document.getElementById("tools").style.display = "grid";
+            document.getElementById("techTab").classList.remove("active");
+            document.getElementById("toolsTab").classList.add("active");
+        }
+    </script>
+
+<br></br>
     <h3>Experience</h3>
     <p>During my studies, I have been involved in various projects, from application development to network system implementation. One of my latest projects is [...], where I developed [...]. This experience enriched my knowledge and taught me the importance of collaboration in teams.</p>
 <br></br>
@@ -79,15 +195,7 @@
 <br></br>
 </div>
 
-<div class="stock">
-	<h3> Tech Stock</h3>
-	<div class="logos">
-	<img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon">
-	<img src="https://skillicons.dev/icons?i=js,ts" alt="skill-icon">
-	<img src="https://skillicons.dev/icons?i=react,next" alt="ski11-icon">
-	<img src="https://skillicons.dev/icons?i=tailwind,scss" alt="skill-iron">
-	</div>
-</div>
+
 
 	<!-- About Section End -->
 
@@ -114,7 +222,7 @@
         feather.replace();
     </script>
 	<!--My JavaScript-->
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
