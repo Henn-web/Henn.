@@ -484,6 +484,22 @@ transform-origin: scaleX(0.2);
 .contact .row form {
 	padding-top: 0;
 }	
+	  .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Kolom lebih kecil */
+    }
+    
+    .tab {
+        padding: 8px 16px;
+    }
+
+    .skill-item {
+        padding: 15px;
+    }
+
+    .skill-logo {
+        width: 40px; 
+        height: 40px; 
+    }
 
 }
 
@@ -491,5 +507,23 @@ transform-origin: scaleX(0.2);
 @media (max-width: 450px) {
     html {
         font-size: 55%;
+    }
+	
+	.skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Lebih kecil lagi untuk mobile */
+    }
+
+    .tab {
+        padding: 6px 12px;
+        margin: 0 5px;
+    }
+
+    .skill-item {
+        padding: 10px;
+    }
+
+    .skill-logo {
+        width: 35px; 
+        height: 35px; 
     }
 }
