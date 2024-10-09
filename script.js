@@ -56,13 +56,24 @@ if (searchButton) {
     });
 }
 
-// Functions for Tabs (Assuming the active class is set properly in your HTML)
 function showTechStack() {
+    // Hapus class 'active' dari tab yang aktif sebelumnya
     document.querySelector('.tab.active').classList.remove('active');
+    // Tambahkan class 'active' ke tombol pertama (Tech Stack)
     document.querySelector('.tabs button:first-child').classList.add('active');
+
+    // Tampilkan Tech Stack, sembunyikan Tools
+    document.getElementById('techStack').style.display = 'grid';
+    document.getElementById('tools').style.display = 'none';
 }
 
 function showTools() {
+    // Hapus class 'active' dari tab yang aktif sebelumnya
     document.querySelector('.tab.active').classList.remove('active');
+    // Tambahkan class 'active' ke tombol kedua (Tools)
     document.querySelector('.tabs button:last-child').classList.add('active');
+
+    // Tampilkan Tools, sembunyikan Tech Stack
+    document.getElementById('techStack').style.display = 'none';
+    document.getElementById('tools').style.display = 'grid';
 }
