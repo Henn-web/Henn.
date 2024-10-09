@@ -284,7 +284,6 @@ transition: 3s;
 	opacity: .88;
 }
 
-//** Animasi Masuk **//
 @keyframes fadeIn {
   0% {
     opacity: 0;
