@@ -3,6 +3,12 @@
     --bg: #010101;
 }
 
+.gold-text {
+  color: #FFD700; /* Warna kuning emas */
+  font-weight: bold; /* Opsional, jika ingin teks lebih tebal */
+}
+
+
 
 * {
 font-family: 'poppins', sans-serif;
