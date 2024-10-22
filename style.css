@@ -200,6 +200,17 @@ body {
 	mix-blend-mode: difference;
 }
 
+.typewrite > .wrap {
+    color: #fff; /* Mengubah teks menjadi putih */
+    border-right: 0.08em solid transparent; /* Border transparan */
+    animation: blink-caret 0.75s step-end infinite; /* Efek berkedip pada caret */
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; } /* Border tetap transparan */
+    50% { border-color: rgba(255, 255, 255, 0.75); } /* Caret berwarna putih saat berkedip */
+}
+
 .btn-box {
 	margin: 1rem;
 	display: flex;
